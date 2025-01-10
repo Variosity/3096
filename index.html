@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>3096</title>
+</head>
+<body>
+    <header>
+        <h1>3096</h1>
+        <nav>
+            <ul>
+                <li><a href="#scripture">Scrolls</a></li>
+                <li><a href="#compendium">Compendium</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#temperature">Temperature</a></li>
+                <li><a href="#clock">Clock</a></li>
+                <li><a href="#timer">Timer</a></li>
+                <li><a href="#notes">Notes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="scripture">
+            <h2>Scrolls</h2>
+            <div id="scripture-content">
+                <!--Dynamincally loaded content-->
+            </div>
+        </section>
+        <section id="compendium">
+            <h2>Compendium</h2>
+            <div id="compendium-content"></div>
+        </section>
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <div id="calendar-display">--</div>
+        </section>
+        <section id="temperature">
+            <h2>Temperature</h2>
+            <div id="temp-display">--</div>
+        </section>
+        <section id="clock">
+            <h2>Clock</h2>
+            <div id="clock-display">--:--:--</div>
+        </section>
+        <section id="timer">
+            <h2>Timer</h2>
+            <div id="timer-display">00:00:00</div>
+            <button id="start-timer">Start</button>
+            <button id="stop-timer">Stop</button>
+            <button id="reset-timer">Reset</button>
+        </section>
+        <section id="notes">
+            <h2>Notes</h2>
+            <textarea id="user-notes"
+            placeholder="Write your notes here..."></textarea>
+        </section>
+    </main>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
